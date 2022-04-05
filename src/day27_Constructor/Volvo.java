@@ -15,6 +15,8 @@ public class Volvo {
         elektriklimi = elk;
         yil = yl;
         yakit = ykt;
+        maxHiz = maxHizAta();
+        otomatikPilot = otomatikPilotSorgusu();
     }
 
     public int maxHizAta() {
